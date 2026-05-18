@@ -110,16 +110,14 @@ MolCodon similarity is component based:
 - `ring_f1`: overlap of normalized ring components.
 - `branch_f1`: overlap of branch components.
 - `attachment_f1`: agreement of branch attachment context.
-- `bond_f1`: bond type overlap.
 - `pharmacophore_f1`: overlap of pharmacophore annotations.
-- `backbone`: token n-gram similarity of non-ring/non-branch backbone.
 - `tanimoto`: Morgan fingerprint Tanimoto similarity from RDKit.
 
 ## Notes
 
 MolCodon currently supports common organic atoms encoded by the included codon dictionary: C, N, O, S, F, Cl, Br, I, P, and B. Unsupported atoms or unsupported graph patterns raise an `EncodeError` or `DecodeError`.
 
-The encoder and decoder preserve standard atom chirality (`R/S`) and double-bond stereochemistry (`E/Z`) for supported molecules. Pseudoasymmetric lowercase CIP descriptors (`r/s`) are a known limitation unless explicitly extended with additional codons.
+The encoder and decoder preserve standard atom chirality (`R/S`) and double-bond stereochemistry (`E/Z`) for supported molecules.
 
 ## Test
 
