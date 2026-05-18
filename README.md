@@ -2,6 +2,8 @@
 
 MolCodon is a molecular representation toolkit for encoding SMILES strings into codon-like chemical token sequences, decoding MolCodon sequences back into RDKit molecules, and scoring component-level molecular similarity.
 
+<img width="1536" height="1024" alt="MolCodon_schematic" src="https://github.com/user-attachments/assets/5886e2dd-8a15-49d5-8712-82457ee2f98b" />
+
 The package includes:
 
 - `molcodon_encoder.py`: SMILES to MolCodon sequence.
