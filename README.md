@@ -131,4 +131,5 @@ PYTHONPATH=. python3 -m unittest discover -s tests
 
 ## Citation
 
-If you use MolCodon in a manuscript, cite the associated MolCodon paper or preprint when available.
+If you use MolCodon in a manuscript, cite the associated MolCodon paper: 
+Sayyah, E., Kurul, E., Tunc, H., & Durdagi, S. (2026). MolCodon: A codon-based molecular language for interpretable structural representation and similarity search. https://doi.org/10.64898/2026.05.20.726468.
